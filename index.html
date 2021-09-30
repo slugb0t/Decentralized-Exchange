@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Title</title>
+    <title>DEX</title>
     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
@@ -15,13 +15,22 @@
   <body>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Welcome</h1>
+        <h1 class="display-4">My DEX</h1>
+        <div id="form">
+            <div class="swapbox">_</div>>
+            <div class="swapbox">_</div>
+            <button class="btn btn-large btn-primary btn-block" id="swap_button">
+                Swap
+            </button>
+        </div>
       </div>
     </div>
+    <div class="model" id="token_model" tabindex="-1" role="dialog">...</div>
+
     <div class="container">
         <button id="login_button">Sign in with MetaMask</button>
     </div>
-
+    <script type="text/javascript"></script>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
