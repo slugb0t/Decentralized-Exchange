@@ -34,7 +34,7 @@
     width: 40px;
 }
 
-.modal_body {
+.modal-body {
     height: 600px;
     overflow: scroll;
 }
@@ -44,6 +44,6 @@
 }
 
 .token_row:hover {
-    background-color: #464646;
+    background-color: #e4e4e4;
     cursor: pointer;
 }

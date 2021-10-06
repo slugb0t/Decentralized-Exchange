@@ -20,7 +20,7 @@ async function listAvailableTokens() {
     let html = `
         <img class="token_list_img" src="${token.logoURI}">
         <span class="token_list_text">${token.symbol}</span>
-        `;
+        `
     div.innerHTML = html;
     parent.appendChild(div);
   }
